@@ -1,0 +1,242 @@
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* Header----Nav */
+header nav.row {
+  padding: 10px 0px 10px 0px;
+}
+
+header nav.row img {
+  min-width: 140px;
+  margin-left: 20px;
+}
+
+header div.links {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  font-weight: 600;
+}
+
+.custom-toggler.navbar-toggler {
+  margin-right: 20px;
+  border-color: white;
+}
+
+.footer-contenido {
+  height: 15vh;
+}
+
+.textPresentacion {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ffaa19;
+}
+
+.textTrabajos {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.textnormal {
+  text-align: center;
+}
+
+.icon-footer {
+  background-color: white;
+  width: 40px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.icon-footer:hover {
+  box-shadow: -2px -1px 68px 3px rgba(248, 248, 248, 0.75);
+  -webkit-box-shadow: -2px -1px 68px 3px rgba(248, 248, 248, 0.75);
+  -moz-box-shadow: -2px -1px 68px 3px rgba(248, 248, 248, 0.75);
+}
+
+@media (min-width: 576px) {
+  .icon-footer {
+    width: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .textPresentacion {
+    font-size: 2rem;
+    text-align: initial;
+  }
+  .textnormal {
+    text-align: initial;
+  }
+  .icon-footer {
+    width: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .textPresentacion {
+    font-size: 3rem;
+    text-align: initial;
+  }
+  .textnormal {
+    font-size: 1rem;
+  }
+}
+
+#clientesimg {
+  max-width: 970px;
+}
+
+.comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu .contenedor-icono {
+  width: 70px;
+  height: 70px;
+  top: -35px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -2px -2px 16px 11px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: -2px -2px 16px 11px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: -2px -2px 16px 11px rgba(0, 0, 0, 0.49);
+}
+
+.comuniProdu .container-tarjetascomuniProdu .tarjetascomuniProdu .contenedor-icono img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container-carousel img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container-carousel img {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .quehacemos {
+    height: 40%;
+  }
+  .quehacemos p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .comuniProdu {
+    height: 60%;
+  }
+  .comuniProdu .container-tarjetascomuniProdu {
+    height: 100%;
+  }
+}
+
+#titleClientes {
+  margin-top: 30px;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .contact {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact {
+    text-align: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact {
+    width: 75%;
+    text-align: initial;
+  }
+}
+
+#botonvar {
+  width: unset !important;
+}
+
+@media (max-width: 768px) {
+  #encuentraiconos {
+    text-align: center;
+  }
+}
+
+#formula {
+  height: 50%;
+}
+
+/* Colores primarios */
+.fondoBlanco {
+  background-color: white;
+}
+
+.fondoNegro {
+  background-color: black;
+}
+
+.fondoRojo {
+  background-color: #FC4D30;
+}
+
+.fondoRosa {
+  background-color: #F573AF;
+}
+
+.fondoNaranja {
+  background-color: #FFAA19;
+}
+
+/* Colores segundarios */
+.fondoGris1 {
+  background-color: #a9a9a9;
+}
+
+.fondoGris2 {
+  background-color: #d2d3d5;
+}
+
+.fondoRosa2 {
+  background-color: #f5c8e3;
+}
+
+/* Colores texto */
+.textoRosa {
+  color: #F573AF;
+}
+
+.textoNaranja {
+  color: #FFAA19;
+}
+/*# sourceMappingURL=styles.css.map */

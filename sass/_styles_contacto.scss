@@ -1,0 +1,39 @@
+.contact{
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 576px) { 
+    .contact{
+    width: 90%;
+    }
+}
+
+@media (min-width: 768px) { 
+    .contact{
+    text-align: initial;
+    }
+  
+}
+
+@media (min-width: 992px) {
+    .contact{
+    width: 75%;
+    text-align: initial;
+    }
+}
+
+#botonvar{
+    width: unset !important;
+}
+
+@media (max-width: 768px) {
+
+    #encuentraiconos{
+        text-align: center;
+    }
+}
+
+#formula{
+    height: 50%;
+}

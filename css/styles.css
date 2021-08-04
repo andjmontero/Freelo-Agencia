@@ -219,11 +219,6 @@ html {
   height: 50%;
 }
 
-.contact-footer {
-  position: absolute;
-  bottom: 0px;
-}
-
 /* Colores primarios */
 .fondoBlanco {
   background-color: white;

@@ -8,8 +8,11 @@ var firebaseConfig = {
   appId: "1:484231946088:web:46bb813e0d5f2ea74680dd",
 };
 firebase.initializeApp(firebaseConfig);
+
 let contactInfo = firebase.database().ref("ContactForm");
+
 let form = document.getElementById("contact");
+
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   let name = e.target.name.value;
@@ -22,7 +25,6 @@ form.addEventListener("submit", function (e) {
 
 function saveContactInfo(name, email, tel, comentarios) {
   let newContactInfo = contactInfo.push();
-
   newContactInfo.set({
     name: name,
     email: email,

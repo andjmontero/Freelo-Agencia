@@ -1,39 +1,59 @@
-.contact{
-    width: 100%;
-    text-align: center;
+body,
+html {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  font-weight: 600;
+}
+.contact {
+  width: 100%;
+  text-align: center;
+}
+#comentarios {
+  height: 100px;
 }
 
-@media (min-width: 576px) { 
-    .contact{
+@media (min-width: 576px) {
+  .contact {
     width: 90%;
-    }
+  }
 }
 
-@media (min-width: 768px) { 
-    .contact{
+@media (min-width: 768px) {
+  .contact {
     text-align: initial;
-    }
-  
+  }
 }
 
 @media (min-width: 992px) {
-    .contact{
+  .contact {
     width: 75%;
     text-align: initial;
-    }
+  }
 }
 
-#botonvar{
-    width: unset !important;
+#botonvar {
+  width: unset !important;
 }
 
 @media (max-width: 768px) {
-
-    #encuentraiconos{
-        text-align: center;
-    }
+  #encuentraiconos {
+    text-align: center;
+  }
 }
 
-#formula{
-    height: 50%;
+#formula {
+  height: 50%;
+}
+.contact-footer {
+  position: absolute;
+  bottom: 0px;
 }

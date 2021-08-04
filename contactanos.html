@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light fondoRosa row">
+      <nav class="navbar navbar-expand-lg navbar-dark fondoNegro row">
         <div class="col-5">
           <a class="navbar-brand" href="index.html">
             <img class="w-25" src="img/Logo-png00003.png" alt="" />
@@ -87,50 +87,50 @@
           <p>Campos marcados con un asterisco (*) son requeridos</p>
         </div>
         <div id="formula" class="container-fluid">
-          <form class="row">
+          <form class="row" id="contact">
             <div class="form-floating mb-3 col-md-6 col-12">
               <input
                 type="text"
                 class="form-control"
-                id="floatingInput"
+                id="name"
                 placeholder="Nombre"
               />
-              <label class="ms-2" for="floatingInput">Nombre</label>
+              <label class="ms-2" for="name">Nombre</label>
             </div>
             <div class="form-floating mb-3 col-md-6 col-12">
               <input
                 type="text"
                 class="form-control"
-                id="floatingInput"
+                id="empresa"
                 placeholder="Empresa"
               />
-              <label class="ms-2" for="floatingInput">Empresa</label>
+              <label class="ms-2" for="empresa">Empresa</label>
             </div>
             <div class="form-floating mb-3 col-md-6 col-12">
               <input
                 type="email"
                 class="form-control"
-                id="floatingPassword"
+                id="email"
                 placeholder="ejemplo@freelo.com"
               />
-              <label class="ms-2" for="floatingPassword">Email*</label>
+              <label class="ms-2" for="email">Email*</label>
             </div>
             <div class="form-floating mb-3 col-md-6 col-12">
               <input
                 type="number"
                 class="form-control"
-                id="floatingInput"
+                id="tel"
                 placeholder="WhatsApp"
               />
-              <label class="ms-2" for="floatingInput">WhatsApp</label>
+              <label class="ms-2" for="tel">WhatsApp</label>
             </div>
             <div class="form-floating mb-3 col-12">
               <textarea
                 class="form-control"
                 placeholder="Comentarios"
-                id="floatingTextarea"
+                id="comentarios"
               ></textarea>
-              <label class="ms-2" for="floatingTextarea">Comentarios</label>
+              <label class="ms-2" for="comentarios">Comentarios</label>
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-primary fondoRosa">
@@ -140,50 +140,9 @@
           </form>
         </div>
       </div>
-
-      <div
-        class="
-          sectionPagina
-          row
-          fondoRosa2
-          row-cols-1
-          p-5
-          justify-content-center
-        "
-      >
-        <div class="col align-self-center mx-auto">
-          <h1 class="fw-bold">ENCONTRANOS EN...</h1>
-        </div>
-        <div id="encuentraiconos" class="col w-75 mx-auto">
-          <div class="mb-4">
-            <img class="me-4" src="img/email.png" alt="" /><span
-              class="d-none d-md-inline"
-              >hola@freeloagencia.com</span
-            >
-          </div>
-          <div class="mb-4">
-            <img class="me-4" src="img/instagram.png" alt="" /><span
-              class="d-none d-md-inline"
-              >www.instagram.com/freelo.ar</span
-            >
-          </div>
-          <div class="mb-4">
-            <img class="me-4" src="img/linkedin-logo.png" alt="" /><span
-              class="d-none d-md-inline"
-              >www.linkedin.com/company/freelo-agencia</span
-            >
-          </div>
-          <div class="mb-4">
-            <img class="me-4" src="img/whatsapp.png" alt="" /><span
-              class="d-none d-md-inline"
-              >+54 911 6790 2370</span
-            >
-          </div>
-        </div>
-      </div>
     </main>
 
-    <footer class="container-fluid fondoNegro">
+    <footer class="container-fluid fondoNegro contact-footer">
       <div class="row fw-bold footer-contenido text-center align-items-center">
         <div class="col">
           <img class="icon-footer" src="img/linkedin-logo.png" alt="" />
@@ -191,9 +150,7 @@
         <div class="col">
           <img class="icon-footer" src="img/mail.png" alt="" />
         </div>
-        <div class="col-6 col-sm-3 col-md-2">
-          <img class="w-100" src="img/Logo-png00003.png" alt="" />
-        </div>
+
         <div class="col">
           <img class="icon-footer" src="img/instagram.png" alt="" />
         </div>
@@ -202,6 +159,8 @@
         </div>
       </div>
     </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase.js"></script>
+    <script src="js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -55,6 +55,8 @@ header div.links {
 
 .textnormal {
   text-align: center;
+  line-height: 300%;
+  margin-bottom: 20px;
 }
 
 .icon-footer {
@@ -184,6 +186,36 @@ html {
 
 #comentarios {
   height: 100px;
+}
+
+.modal-content {
+  padding: 10px;
+  width: 600px;
+}
+
+.contact-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-weight: 900;
+}
+
+.close-gif {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.close-icon {
+  font-size: 40px;
 }
 
 @media (min-width: 576px) {

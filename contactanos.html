@@ -17,6 +17,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -133,7 +134,12 @@
               <label class="ms-2" for="comentarios">Comentarios</label>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary fondoRosa">
+              <button
+                type="submit"
+                class="btn fondoRosa"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Enviar
               </button>
             </div>
@@ -141,7 +147,54 @@
         </div>
       </div>
     </main>
+    <div
+      class="modal fade modal-main"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close close-gif"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <img class="close-icon" src="img/close-icon.svg" alt="" />
+          </button>
 
+          <div class="contact-modal">
+            <h4>¡Gracias!</h4>
+            <h5 class="modal-title">
+              Nos pondremos en contacto a la brevedad.
+            </h5>
+          </div>
+          <div class="modal-body">
+            <div
+              style="
+                width: 100%;
+                height: 0;
+                padding-bottom: 64%;
+                position: relative;
+              "
+            >
+              <iframe
+                src="https://giphy.com/embed/fJKG1UTK7k64w"
+                width="100%"
+                height="100%"
+                style="position: absolute"
+                frameborder="0"
+                class="giphy-embed"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="container-fluid fondoNegro contact-footer">
       <div class="row fw-bold footer-contenido text-center align-items-center">
         <div class="col">
@@ -159,7 +212,7 @@
         </div>
       </div>
     </footer>
-    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase.js"></script>
+
     <script src="js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
